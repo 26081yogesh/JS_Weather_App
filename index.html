@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Enter Your Location"
+            class="input-box"
+          />
+          <button class="fa fa-search" id="search-button"></button>
+        </div>
+      </div>
+
+      <div class="weather-body">
+        <img src="assets/clear.png" alt="weather-image" class="weather-image" />
+        <div class="weather-box">
+          <p class="temperature">0 <sup>°C</sup></p>
+          <p class="description">Clear Sky</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
